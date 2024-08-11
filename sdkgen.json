@@ -1,0 +1,8 @@
+{
+  "type": "client-go",
+  "require": {
+    "deutschland-api/sdk": {
+      "target": "./sdk"
+    }
+  }
+}
