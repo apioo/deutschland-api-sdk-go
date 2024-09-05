@@ -12,7 +12,13 @@ import (
 	"github.com/apioo/deutschland-api-sdk-go/sdk"
 )
 
-var client, _ = sdk.Build();
+var client, _ = sdk.BuildAnonymous();
 
-// @TODO use the client
+for _, city := range client.city().getAll() {
+    fmt.Println(city.State)
+}
+
 ```
+
+More information about the complete API at:
+https://app.typehub.cloud/d/deutschland-api/sdk
