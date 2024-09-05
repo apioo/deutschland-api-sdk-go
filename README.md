@@ -14,8 +14,9 @@ import (
 
 var client, _ = sdk.BuildAnonymous();
 
-for _, city := range client.city().getAll() {
-    fmt.Println(city.State)
+var collection = client.state().getAll()
+for _, state := range collection.Entries {
+    fmt.Println(state.Name)
 }
 
 ```
