@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/apioo/deutschland-api-sdk-go/sdk"
-	"github.com/apioo/sdkgen-go"
+	"github.com/apioo/sdkgen-go/v2"
 	"testing"
 )
 
